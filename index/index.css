@@ -1,0 +1,398 @@
+/*初始化默认样式*/
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea,
+th, td, select {
+    margin: 0;
+    padding: 0;
+}
+body{
+	/*去除左右滚动条*/
+	overflow-x:hidden;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #232323;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.container-fluid{
+	padding:0;
+}
+/*导航*/
+#index_nav{
+	background: -webkit-linear-gradient(left, #4876FF , #FF6347); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #4876FF, #FF6347); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #4876FF, #FF6347); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #4876FF , #FF6347); /* 标准的语法*/
+}
+.title_Logo{
+	width:45px;
+}
+.nav a{
+	color:#CCCCCC;
+}
+.nav_sousuo{
+	margin-left:200px;
+}
+.nav-item a:hover{
+	border-radius:50px;
+	color:#FFFFFF;
+	background-color:#FF6347;    
+}
+/*轮播图区域*/
+.lunbo{
+	margin:74px 77px 10px 77px; 
+	height: 350px;
+	position: relative;
+}
+.lb_div1{
+	width: 182px;
+	height: 100%;
+	line-height: 70px;
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;
+	background-color: #6495ED;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.lb_div1 a{
+	color:#ffffff;
+	margin-left: 25px;
+}
+.lb_div1 li{
+	list-style: none;
+}
+.lb_div1 img{
+	width: 20px;
+	float:right;
+	margin-top: 26px;
+
+}
+.lb_div1 li:hover{
+	background-color:#C5C1AA;
+}
+.lb_div2{
+	margin-left: 182px;
+}
+.lb_div2 div{
+	width: 600px;
+	height: 350px;
+	display: none;
+	background-color: #fff;
+	/*设置背景透明*/
+	-moz-opacity:0.9;
+	opacity: 0.9;
+}
+.lb_div2_title{
+	line-height: 40px;
+}
+.lb_div2_divs1 img{
+	width: 50px;
+	margin-left:40px; 
+}
+.lb_div3{
+	position: absolute;
+	top: 0;
+	left: 182px;
+	z-index:-1;
+
+}
+.lb_div3_lbt{
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;	
+}
+.lb_div3_lbt img{
+	width: 1010px;
+	height: 350px;
+}
+/*content栅格 头条、最新课程、常用手册*/
+#cont_shange_a,#cont_shange_b,#cont_shange_c{
+	border-radius:15px;
+	height: 400px;
+	background-color:#EDEDED;
+}
+#cont_shange_a{
+	margin: 10px 10px 10px 96px;	
+}
+#cont_shange_a li a{
+	font-size:14px;
+	line-height:24px;
+}
+#cont_shange_a div ul li{
+	overflow: hidden; /*自动隐藏文字*/
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    white-space: nowrap;/*强制不换行*/
+}
+#cont_shange_a li:hover{
+	background-color: #EE9A49;
+}
+#cont_shange_b,#cont_shange_c{
+	margin: 10px;	
+}
+#shange_b_zxkc1,#shange_b_zxkc2{
+	height: 150px;
+}
+.shange_b_lgge img{
+	width: 160px;
+	height: 110px;
+}
+.shange_b_lgge span{
+	font-size:13px;
+}
+.shange_c_span2{
+    float:right;
+}
+.cont_shange_c_div2 li{
+	margin:8px;
+}
+.cont_shange_c_div2 li img{
+	width: 40px;
+	margin-right:20px;
+}
+/*content栅格 技术文章、文章区域、社区问答区*/
+.main_article{
+    width: 89%;
+    margin-left: 74px;
+    background-color:#EDEDED;
+    border-radius:15px;
+}
+.content_lis1 li,.content_lis2 li,.content_lis3 li{
+    font-size:15px;
+    overflow: hidden; /*自动隐藏文字*/
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    white-space: nowrap;/*强制不换行*/
+}
+.content_lis1 li a:hover{
+    color:#DC143C;
+}
+.content_lis3 li a:hover{
+    color:#EE7621;
+}
+.article_a,.article_b{
+	border-radius:15px;
+	height: 580px;
+	background-color:#fff;
+	margin:18px;
+
+}
+.article_a_xxk{
+   margin-top:10px;
+}
+.article_b_lbt{
+	margin-top:10px;
+}
+.article_b_lbt img{
+	height: 200px;
+	width: 100%;
+	border-radius:10px; 
+}
+.tjzy_nav li{
+    margin-left:15px;
+}
+.jsfc_imgs img{
+    width:140px;
+    margin:8px;
+}
+ /*推荐资源内容壹补充样式*/
+#zy1_content1,#zy2_content1,#zy3_content1,#zy4_content1{
+	float:left;
+	width: 140px;
+	height: 126px;
+	margin-right:14px;
+}
+#tjzy_content1 img{
+	height: 100%;
+	width: 100%;
+}
+#tjzy_content1 p{
+	text-align: center;
+}
+ /*推荐资源内容贰补充样式*/
+#zy1_content2,#zy2_content2,#zy3_content2,#zy4_content2{
+	float:left;
+	width: 140px;
+	height: 126px;
+	margin-right:14px;
+}
+#tjzy_content2 img{
+	height: 100%;
+	width: 100%;
+}
+#tjzy_content2 p{
+	text-align: center;
+}
+ /*推荐资源内容叁补充样式*/
+#zy1_content3,#zy2_content3,#zy3_content3,#zy4_content3{
+	float:left;
+	width: 140px;
+	height: 126px;
+	margin-right:14px;
+}
+#tjzy_content3 img{
+	height: 100%;
+	width: 100%;
+}
+#tjzy_content3 p{
+	text-align: center;
+}
+/*前端入门精品课程区域样式 */
+#webjingpin_title{
+	margin-top: 30px;
+}
+#webjingpin_title span{
+	color: red;
+	margin-left: 600px;
+}
+#webjingpin{
+	width: 89%;
+	height:660px;
+	margin:20px 0 0 77px;
+	padding-top: 26px;
+	background-color:#EDEDED;
+}
+#webjingpin span{
+	margin-left: 10px;
+}
+#webjingpin a:hover{
+	color:red;
+}
+#webjingpin_left,#webjingpin_right{
+	background-color:#ffffff;
+}
+#webjingpin_left{
+	margin-left:18px;
+	height:600px;
+}
+#webjingpin_left_top{
+	width: 100%;
+	height: 420px;
+	border-radius:15px;
+	margin-top: 10px;
+	box-shadow:6px 4px 8px #000;
+}
+#webjingpin_left_bot img{
+    height: 110px;
+    margin-top: 17px;
+    border-radius:15px;
+    box-shadow:5px 2px 6px #000;
+}
+#webjingpin_right{
+	margin-left:25px;
+	height:600px;
+}
+#webjingpin_right img{
+    width:200px;
+    margin-top: 10px;
+    border-radius:15px;
+    box-shadow:5px 2px 6px #000;
+}
+
+/*前端进阶高级课程区域样式 */
+#web_jinjie_title{
+	margin-top: 30px;
+}
+#web_jinjie_title span{
+	color: red;
+	margin-left: 600px;
+}
+#web_jinjie{
+	width: 89%;
+	height:660px;
+	margin:20px 0 0 77px;
+	padding-top: 26px;
+	background-color:#EDEDED;
+}
+#web_jinjie span{
+	margin-left: 10px;
+}
+#web_jinjie a:hover{
+	color:red;
+}
+#web_jinjie_left,#web_jinjie_right{
+	background-color:#ffffff;
+}
+#web_jinjie_left{
+	margin-left:18px;
+	height:600px;
+}
+#web_jinjie_left_top{
+	width: 100%;
+	height: 420px;
+	border-radius:15px;
+	margin-top: 10px;
+	box-shadow:6px 4px 8px #000;
+}
+#web_jinjie_left_bot img{
+    height: 110px;
+    margin-top: 17px;
+    border-radius:15px;
+    box-shadow:5px 2px 6px #000;
+}
+#web_jinjie_right{
+	margin-left:25px;
+	height:600px;
+}
+#web_jinjie_right img{
+    width:200px;
+    margin-top: 10px;
+    border-radius:15px;
+    box-shadow:5px 2px 6px #000;
+}
+/*友情链接*/
+.youqinglianjie{
+	width: 89%;
+	margin: 20px 0 0 78px;
+	background-color:#FDF5E6;
+}
+.youqinglianjie span{
+	padding-left:10px; 
+}
+.yqlj_div1{
+    padding-top:10px;
+}
+.yqlj_div2{
+	height:70px;
+}
+.yqlj_div2 span a{
+	font-size:15px;
+	color:#949494;
+}
+.yqlj_div2 span a:hover{
+	color:#000000;
+}
+/*底部区域*/
+.foot_shenming{
+	height: 120px;
+	margin-top:20px;
+	background: -webkit-linear-gradient(left, #4876FF , #FF6347); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #4876FF, #FF6347); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #4876FF, #FF6347); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #4876FF , #FF6347); /* 标准的语法*/
+}
+.foot_left{
+	float: left;
+	margin: 12px 200px 0 150px;
+}
+.foot_left img{
+	width: 80px;
+}
+.foot_center{
+    padding:38px;
+    line-height:30px;
+    text-align: center;
+    float: left;
+    color: #fff;
+}
+.foot_right{
+	float: right;
+	margin-right:120px;
+	border:1px solid;
+	height: 120px;
+	width: 140px;
+	text-align: center;
+}
