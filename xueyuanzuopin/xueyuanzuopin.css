@@ -1,0 +1,110 @@
+/*初始化默认样式*/
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea,
+th, td, select {
+    margin: 0;
+    padding: 0;
+}
+body{
+	/*去除左右滚动条*/
+	overflow-x:hidden;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #232323;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.container-fluid{
+	padding:0;
+}
+/*导航*/
+#index_nav{
+	background: -webkit-linear-gradient(left, #4876FF , #FF6347); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #4876FF, #FF6347); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #4876FF, #FF6347); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #4876FF , #FF6347); /* 标准的语法*/
+}
+.title_Logo{
+	width:45px;
+}
+.nav a{
+	color:#CCCCCC;
+}
+.nav_sousuo{
+	margin-left:200px;
+}
+.nav-item a:hover{
+	border-radius:50px;
+	color:#FFFFFF;
+	background-color:#FF6347;    
+}
+/*content部分*/
+.content{
+	margin-top: 90px;
+}
+.zuopin_title{
+	color:#707070;
+}
+.zuopin_nav li a{
+	color:#79CDCD;
+	border: 1px solid #707070;
+	margin-left: 10px;
+}
+#zuopin_content ul{
+	width: 1250px;
+	margin-left: -80px;
+}
+#zuopin_content ul li{
+	display: inline-block;
+	margin:10px;
+
+}
+#zuopin_content ul li a img{
+	width: 280px;
+	transition: 2s; /*定义旋转速度*/
+	
+}
+#zuopin_content ul li a img:hover{
+
+	transform: rotateY(180deg); /*3D旋转*/
+}
+.content_yeqian{
+	padding-left:80%;
+}
+
+/*底部区域*/
+.foot_shenming{
+	height: 120px;
+	margin-top:20px;
+	background: -webkit-linear-gradient(left, #4876FF , #FF6347); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #4876FF, #FF6347); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #4876FF, #FF6347); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #4876FF , #FF6347); /* 标准的语法*/
+}
+.foot_left{
+	float: left;
+	margin: 12px 200px 0 150px;
+}
+.foot_left img{
+	width: 80px;
+}
+.foot_center{
+    padding:38px;
+    line-height:30px;
+    text-align: center;
+    float: left;
+    color: #fff;
+}
+.foot_right{
+	float: right;
+	margin-right:120px;
+	border:1px solid;
+	height: 120px;
+	width: 140px;
+	text-align: center;
+}
