@@ -51,6 +51,7 @@ a:hover{
 .content_view img{
    border-radius:15px;
    width: 250px;
+   height: 140px;
 }
 .content_view li img:hover{
 	border-radius:50%;
@@ -111,7 +112,6 @@ a:hover{
 .foot_right{
 	float: right;
 	margin-right:120px;
-	border:1px solid;
 	height: 120px;
 	width: 140px;
 	text-align: center;

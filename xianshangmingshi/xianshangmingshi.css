@@ -39,9 +39,6 @@ a:hover{
 .nav a{
 	color:#CCCCCC;
 }
-.nav_sousuo{
-	margin-left:200px;
-}
 .nav-item a:hover{
 	border-radius:50px;
 	color:#FFFFFF;
@@ -89,7 +86,6 @@ a:hover{
 .foot_right{
 	float: right;
 	margin-right:120px;
-	border:1px solid;
 	height: 120px;
 	width: 140px;
 	text-align: center;

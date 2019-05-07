@@ -52,6 +52,9 @@ a:hover{
 #wenzhang_content div div{
 	margin-top:10px;
 }
+#wenzhang_content div{
+    margin-top: -30px;
+}
 .wenzhang_left{
 	border-radius: 5px;
 	float: left;
@@ -68,7 +71,6 @@ a:hover{
 	float: right;
 	width: 30%;
 	height: 100%;
-	background-color: #fff;
 }
 .wenzhang_content_miaoshu{
 	color:#A1A1A1;
@@ -78,6 +80,35 @@ a:hover{
 	float: right;
 	margin-top: 30px;
 }
+/*wenzhang_right*/
+.wenzhang_right_top{
+	background-color: #fff;
+}
+.wenzhang_right_top h5{
+	line-height: 40px;
+	padding-left: 10px;
+}
+.wenzhang_right_top li a{
+	font-size:14px;
+	padding-left: 10px;
+}
+.wenzhang_right_top li a:hover{
+    color:#9A32CD;
+}
+.wenzhang_right_bottom{
+	margin-top: 20px;
+	padding-left: 24px;
+	background-color: #fff;
+}
+.wenzhang_right_bottom img{
+	width: 330px;
+	height: 150px;
+	border-radius:15px;
+}
+.wenzhang_right_bottom h5{
+	padding-left: 10px;
+}
+
 
 
 
@@ -107,7 +138,6 @@ a:hover{
 .foot_right{
 	float: right;
 	margin-right:120px;
-	border:1px solid;
 	height: 120px;
 	width: 140px;
 	text-align: center;

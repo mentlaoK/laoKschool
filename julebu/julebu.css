@@ -7,6 +7,7 @@ th, td, select {
 body{
 	/*去除左右滚动条*/
 	overflow-x:hidden;
+	position: relative;
 }
 ul,ol {
     list-style: none;
@@ -24,16 +25,16 @@ a:hover{
 }
 /*导航*/
 #index_nav{
-	background: -webkit-linear-gradient(left, #4876FF , #FF6347); /* Safari 5.1 - 6.0 */
-    background: -o-linear-gradient(right, #4876FF, #FF6347); /* Opera 11.1 - 12.0 */
-    background: -moz-linear-gradient(right, #4876FF, #FF6347); /* Firefox 3.6 - 15 */
-    background: linear-gradient(to right, #4876FF , #FF6347); /* 标准的语法*/
+    background: linear-gradient(to right, #FFFAFA , #FFFFE0); /* 标准的语法*/
 }
 .title_Logo{
 	width:45px;
 }
-.nav a{
-	color:#CCCCCC;
+#index_nav a{
+	color:#5C5C5C;
+}
+#index_nav span{
+	font-size:25px;
 }
 .nav_sousuo{
 	margin-left:200px;
@@ -43,15 +44,138 @@ a:hover{
 	color:#FFFFFF;
 	background-color:#FF6347;    
 }
-/*content部分*/
-.content{
-	height: 800px;
-	margin-top: 75px;
-	border: 1px solid
+.content_zhuti{
+    text-align: center;
 }
 
-
-
+/*content部分*/
+.content{
+	height: 3460px;
+}
+ #carousel_lunbotu img {
+    width: 100%;
+    height: 100%;
+ }
+ #carousel_lunbotu div{
+ 	width: 100%;
+    height: 450px;
+ }
+.julebu_miaoshu{
+	margin-top: 40px;
+	height: 550px;
+}
+.julebu_miaoshu_left{
+	float: left;
+	width: 60%;
+	height: 485px;
+	padding:30px 20px;
+	margin-left: 20px;
+	background:rgba(64,224,208,0.1);
+	border-radius:15px;	
+}
+.julebu_miaoshu_left h3{
+	font-family:微软雅黑;
+}
+.julebu_miaoshu_left span{
+   line-height:42px;
+   font-family:微软雅黑;
+   font-size:15px;
+}
+.julebu_miaoshu_left img{
+	margin:20px;
+}
+.julebu_miaoshu_right{
+	float:right;
+	width: 35%;
+}
+.jlb_ms_rgt_gundong{
+	padding-left: 40px;
+	height: 390px;
+	width: 300px;
+	border:10px solid #B0E2FF;
+}
+.shetuanjianjie_left{
+	margin-left: 20px;
+}
+.shetuanjianjie_left span{
+	font-size:26px;
+	color:#00EE76;
+	margin:10px;
+}
+#accordion a{
+	line-height: 50px;
+	color:#fff;	
+}
+.card-header{
+	background-color:#00EE76;
+}
+.shetuanjianjie_rigth span{
+    font-size:26px;
+	color:#00EE76;
+	margin:10px;
+}
+.container button{
+	float: left;
+}
+.julebu_jqhd{
+	margin:40px 0 0 20px;
+	background-color: rgba(152,251,152,0.2);
+	width: 96%;
+}
+.julebu_jqhd_title{
+	font-size:26px;
+	color:#8B0000;
+	margin:20px;
+}
+.julebu_jqhd a{
+	color:#B8860B;
+}
+.julebu_jqhd_bottom{
+	margin: 40px 0 0 20px;
+}
+.julebu_jqhd_bottom span{
+	font-size: 26px;
+	color:#A0522D;
+}
+.julebu_jqhd_bottom div{
+	margin-top:40px;
+	height: 300px;
+	border-radius:10px;
+	padding:50px;
+	background-color: rgba(255,160,122,0.3);
+}
+.julebu_jqhd_dibu{
+	border: 1px solid;
+	line-height: 50px;
+	margin:90px 20px;
+	width:402px;
+	text-align: center;
+	background-color:#32CD32;
+	border-radius:30px;
+}
+.julebu_jqhd_dibu span{
+	font-size:18px;
+	font-family:微软雅黑;
+}
+#julebu_jqhd_content{
+	margin-left:40px;
+}
+#julebu_jqhd_content div img{
+	border-radius:10px;
+}
+.content_footer{
+	width: 96%;
+	height: 160px;
+	text-align: center;
+	margin: 60px 0 0 20px;
+	background-color:#43CD80;
+	border-radius:4px;
+	color: #fff;
+}
+.content_footer span{
+	font-size:14px;
+	font-family: 微软雅黑；
+}
 
 /*底部区域*/
 .foot_shenming{
@@ -60,7 +184,7 @@ a:hover{
 	background: -webkit-linear-gradient(left, #4876FF , #FF6347); /* Safari 5.1 - 6.0 */
     background: -o-linear-gradient(right, #4876FF, #FF6347); /* Opera 11.1 - 12.0 */
     background: -moz-linear-gradient(right, #4876FF, #FF6347); /* Firefox 3.6 - 15 */
-    background: linear-gradient(to right, #4876FF , #FF6347); /* 标准的语法*/
+    background: linear-gradient(to right, #EDEDED , #FAFAD2); /* 标准的语法*/
 }
 .foot_left{
 	float: left;
@@ -74,13 +198,5 @@ a:hover{
     line-height:30px;
     text-align: center;
     float: left;
-    color: #fff;
 }
-.foot_right{
-	float: right;
-	margin-right:120px;
-	border:1px solid;
-	height: 120px;
-	width: 140px;
-	text-align: center;
-}
+
